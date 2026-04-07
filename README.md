@@ -36,3 +36,13 @@ C++
 
 ## Build & Run
 ```bash
+make
+./check/test_mst2x_hk data/<instance>.tsp <k> <seed>
+```
+
+## Project Structure
+```
+src/          # Algorithm implementations
+data/         # TSPLIB benchmark instances
+experiments/  # Experiment scripts and results
+```
